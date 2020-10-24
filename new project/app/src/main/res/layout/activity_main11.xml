@@ -17,25 +17,28 @@
     <Button
         android:id="@+id/button25"
         android:layout_width="match_parent"
-        android:layout_height="166dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/milk_shake_lotes" />
 
     <Button
         android:id="@+id/button26"
-        android:layout_width="399dp"
-        android:layout_height="144dp"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/milke_shake_oryou" />
 
     <Button
         android:id="@+id/button27"
         android:layout_width="match_parent"
         android:layout_height="137dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/asear_ahar_gab" />
 
     <Button
         android:id="@+id/button28"
-        android:layout_width="308dp"
-        android:layout_height="53dp"
+        android:layout_width="310dp"
+        android:layout_height="37dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/tat"
@@ -43,4 +46,11 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-25dp"
+        app:srcCompat="@drawable/house_too" />
 </LinearLayout>

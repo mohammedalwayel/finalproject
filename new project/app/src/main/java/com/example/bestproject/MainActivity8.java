@@ -69,5 +69,15 @@ public class MainActivity8 extends AppCompatActivity {
             }
         });
 
+        ImageView bactohouse8 = findViewById(R.id.imageView15);
+        bactohouse8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i8 = new Intent(MainActivity8.this,MainActivity.class);
+                startActivity(i8);
+
+            }
+        });
+
     }
 }

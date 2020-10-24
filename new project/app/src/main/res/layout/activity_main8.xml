@@ -17,19 +17,22 @@
     <Button
         android:id="@+id/button7"
         android:layout_width="match_parent"
-        android:layout_height="143dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/motabag_zbaidy_on" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="match_parent"
         android:layout_height="133dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/basta_one" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="match_parent"
-        android:layout_height="185dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/mahboos_laham_one" />
 
     <Button
@@ -42,5 +45,11 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/house_too" />
 
 </LinearLayout>

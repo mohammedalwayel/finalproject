@@ -30,7 +30,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
         android:text="TextView"
-        android:textColor="#72B2E4"
+        android:textColor="#03A9F4"
         android:textSize="24sp" />
 
     <TextView
@@ -55,4 +55,12 @@
         android:layout_marginBottom="75dp"
         android:text="TextView"
         android:textColor="#FFF9F9" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
 </RelativeLayout>

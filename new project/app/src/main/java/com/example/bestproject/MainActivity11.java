@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity11 extends AppCompatActivity {
 
@@ -74,6 +75,15 @@ public class MainActivity11 extends AppCompatActivity {
                    startActivity(i10);
                }
            });
+
+        ImageView bactohouse11 = findViewById(R.id.imageView17);
+        bactohouse11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i11 = new Intent(MainActivity11.this,MainActivity.class);
+                startActivity(i11);
+            }
+        });
 
     }
 }

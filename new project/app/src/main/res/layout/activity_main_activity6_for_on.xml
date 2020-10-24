@@ -18,9 +18,10 @@
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#BC000000"
         android:text="TextView"
         android:textAlignment="center"
-        android:textColor="#F8F8F8"
+        android:textColor="#03A9F4"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -42,18 +43,28 @@
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="288dp"
-            android:layout_height="116dp"
+            android:layout_width="271dp"
+            android:layout_height="75dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="55dp"
-            android:layout_marginBottom="108dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="109dp"
             android:background="@drawable/tat"
             android:text="الصفحه التاليه"
             android:textAlignment="center"
             android:textColor="#EDEDED"
             android:textSize="30sp"
             android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="66dp"
+            android:layout_height="79dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-5dp"
+            android:layout_marginBottom="-2dp"
+            app:srcCompat="@drawable/house_too" />
 
     </RelativeLayout>
 </LinearLayout>

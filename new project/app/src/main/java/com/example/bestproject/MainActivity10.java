@@ -21,11 +21,13 @@ public class MainActivity10 extends AppCompatActivity {
 
         ImageView img = findViewById(R.id.imageView);
         TextView name = findViewById(R.id.textView7);
-        TextView time =  findViewById(R.id.textView10);
+        TextView time = findViewById(R.id.textView10);
 
         img.setImageResource(f.getImage());
         name.setText(f.getName());
-        time.setText(f.getTimer());
+        time.setText("دقائق" +f.getTime());
+
+
 
         Button b2 = findViewById(R.id.button23);
         b2.setOnClickListener(new View.OnClickListener() {
@@ -35,6 +37,16 @@ public class MainActivity10 extends AppCompatActivity {
                 startActivity(i9);
             }
         });
+        ImageView bactohouse10 = findViewById(R.id.imageView16);
+        bactohouse10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i10 = new Intent(MainActivity10.this,MainActivity.class);
+                startActivity(i10);
+            }
+        });
+
+
 
     }
 }

@@ -18,12 +18,14 @@
         android:id="@+id/button30"
         android:layout_width="match_parent"
         android:layout_height="178dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/asear_avokado" />
 
     <Button
         android:id="@+id/button31"
         android:layout_width="match_parent"
         android:layout_height="173dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/asear_roman" />
 
     <TextView

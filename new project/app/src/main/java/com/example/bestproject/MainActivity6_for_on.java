@@ -29,6 +29,7 @@ public class MainActivity6_for_on extends AppCompatActivity {
         timer1.setText(f1.getTimer());
 
 
+
         Button b6 = findViewById(R.id.button5);
 
 
@@ -36,6 +37,15 @@ public class MainActivity6_for_on extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i6 = new Intent(MainActivity6_for_on.this,MainActivity8.class);
+                startActivity(i6);
+            }
+        });
+
+        ImageView bactohouse = findViewById(R.id.imageView12);
+        bactohouse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i6 = new Intent(MainActivity6_for_on.this,MainActivity.class);
                 startActivity(i6);
             }
         });

@@ -18,12 +18,12 @@ public class MainActivity3 extends AppCompatActivity {
 
         ArrayList<food_too> pfood2 = new ArrayList<>();
 
-        food_too ff1 = new food_too("ميلك شيك نوتيلا",10,"دقائق ",R.drawable.melk_shak_notela);
-        food_too ff2 = new food_too("ميلك شيك لوتس",10,"دقائق",R.drawable.milk_shake_lotes);
-        food_too ff3 = new food_too("ميلك شيك اوريو",10,"دقائق",R.drawable.milke_shake_oryou);
-        food_too ff4 = new food_too("عصير عوار قلب",10,"دقائق",R.drawable.asear_ahar_gab);
-        food_too ff5 = new food_too("عصير تفاح",7,"دقائق",R.drawable.asear_apple);
-        food_too ff6 = new food_too("عصير أفوكادو",10,"دقائق",R.drawable.asear_avokado);
+        food_too ff1 = new food_too("ميلك شيك نوتيلا",3,"دقائق ",R.drawable.melk_shak_notela);
+        food_too ff2 = new food_too("ميلك شيك لوتس",2,"دقائق",R.drawable.milk_shake_lotes);
+        food_too ff3 = new food_too("ميلك شيك اوريو",2,"دقائق",R.drawable.milke_shake_oryou);
+        food_too ff4 = new food_too("عصير عوار قلب",2,"دقائق",R.drawable.asear_ahar_gab);
+        food_too ff5 = new food_too("عصير تفاح",4,"دقائق",R.drawable.asear_apple);
+        food_too ff6 = new food_too("عصير أفوكادو",5,"دقائق",R.drawable.asear_avokado);
         food_too ff7 = new food_too("عصير رمان",5,"دقائق",R.drawable.asear_roman);
 
         pfood2.add(ff1);

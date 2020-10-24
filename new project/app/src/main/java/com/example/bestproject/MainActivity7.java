@@ -21,6 +21,7 @@ public class MainActivity7 extends AppCompatActivity {
         Button b2 = findViewById(R.id.button14);
         Button b3 = findViewById(R.id.button15);
         Button b4 = findViewById(R.id.button19);
+        ImageView bactohouse = findViewById(R.id.imageView14);
 
         Button b5 = findViewById(R.id.button20);
 
@@ -70,6 +71,13 @@ public class MainActivity7 extends AppCompatActivity {
             }
         });
 
+        bactohouse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i7 = new Intent(MainActivity7.this,MainActivity.class);
+                startActivity(i7);
+            }
+        });
 
 
     }

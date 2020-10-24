@@ -1,6 +1,8 @@
 package com.example.bestproject;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.view.LayoutInflater;
@@ -8,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -55,6 +58,33 @@ public class adaptem_food_one extends RecyclerView.Adapter{
 
             }
         });
+        final  AlertDialog.Builder builder = new AlertDialog.Builder(context);
+
+        ((ViewHolder)holder).delete.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                builder.setTitle("Delet");
+                builder.setMessage("Are you sure you want to delete");
+                builder.setCancelable(false).setPositiveButton("yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        farry.remove(position);
+                        notifyDataSetChanged();
+
+
+                    }
+                }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+                AlertDialog alertDialog  =builder.create();
+                alertDialog.show();
+
+            }
+        });
 
     }
 
@@ -66,8 +96,9 @@ public class adaptem_food_one extends RecyclerView.Adapter{
         public TextView timer ;
         public ImageView img ;
         public TextView name ;
-
         public View view ;
+        public  ImageView  delete;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -77,6 +108,7 @@ public class adaptem_food_one extends RecyclerView.Adapter{
             view = itemView ;
             img = itemView.findViewById(R.id.imageView4);
             name = itemView.findViewById(R.id.textView);
+            delete = itemView.findViewById(R.id.imageView6);
 
             timer = itemView.findViewById(R.id.textView2);
 

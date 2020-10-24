@@ -27,10 +27,15 @@ public class MainActivity5 extends AppCompatActivity {
         ImageView img = findViewById(R.id.imageView8);
         TextView name = findViewById(R.id.textView12);
         TextView time = findViewById(R.id.textView13);
+        TextView timer = findViewById(R.id.textView16);
+        ImageView backtohouse = findViewById(R.id.imageView14);
+
 
         img.setImageResource(f1.getImage());
         name.setText(f1.getName());
         time.setText(f1.getTime());
+        timer.setText(f1.getTimer());
+
 
         Button b5 = findViewById(R.id.button17);
         b5.setOnClickListener(new View.OnClickListener() {
@@ -43,7 +48,13 @@ public class MainActivity5 extends AppCompatActivity {
 
 
 
-
+backtohouse.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent i5 = new Intent(MainActivity5.this,MainActivity.class);
+        startActivity(i5);
+    }
+});
 
     }
 }

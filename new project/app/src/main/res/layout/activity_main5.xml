@@ -11,42 +11,57 @@
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="match_parent"
-        android:layout_height="267dp"
+        android:layout_height="304dp"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/pitza_one" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="106dp"
         android:background="#97000000"
         android:text="TextView"
         android:textAlignment="center"
-        android:textColor="#FDFDFD"
+        android:textColor="#03A9F4"
         android:textSize="36sp"
         android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="match_parent"
-        android:layout_height="59dp"
-        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
         android:text="TextView"
         android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#FDFDFD"
-        android:textSize="36sp"
-        android:textStyle="italic" />
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button17"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/tat"
-        android:text="الصفحه التاليه"
 
+        android:text="الصفحه التاليه"
         android:textColor="#FDD0D0"
         android:textSize="30sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="32dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/house_too" />
 
 </LinearLayout>
